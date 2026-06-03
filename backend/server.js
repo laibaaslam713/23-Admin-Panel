@@ -15,7 +15,7 @@ app.use(helmet());
 
 // CORS
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'https://23-admin-panel-a1ss.vercel.app/login',
+  origin: process.env.FRONTEND_URL || 'https://23-admin-panel-a1ss.vercel.app/',
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
